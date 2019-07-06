@@ -35,7 +35,7 @@
                 targets: [
                     {
                         tip: '杂记：什么都有，什么都没有',
-                        url: 'http://blog.realign.pro',
+                        url: 'https://blog.realign.pro',
                         img: `https://img.shields.io/badge/${'blog'}-${'雜 記'}-success.svg?style=for-the-badge&color=${'f0769a'}&labelColor=${'34495e'}`,
                     },
                     {
@@ -62,7 +62,7 @@
 
 <style lang="less" scoped>
 @font-face {
-    src: url(http://fontfacekit.github.io/open-sans/fonts/ExtraBold/OpenSans-ExtraBold.woff2?v=1.101);
+    src: url(https://fontfacekit.github.io/open-sans/fonts/ExtraBold/OpenSans-ExtraBold.woff2?v=1.101);
     font-family: Open Sans;
     font-weight: 800;
     font-style: normal;
