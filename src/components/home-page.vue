@@ -61,6 +61,7 @@
 </script>
 
 <style lang="less" scoped>
+@emoji-letter-spacing: 20px;
 @font-face {
     src: url(https://fontfacekit.github.io/open-sans/fonts/ExtraBold/OpenSans-ExtraBold.woff2?v=1.101);
     font-family: Open Sans;
@@ -98,7 +99,8 @@
         width: 100%;
         height: 40px;
         font-size: 32px;
-        letter-spacing: 20px;
+        letter-spacing: @emoji-letter-spacing;
+        text-indent: @emoji-letter-spacing;
         text-align: center;
     }
 
@@ -115,6 +117,22 @@
             &:last-child {
                 margin-right: 0;
             }
+        }
+    }
+}
+@media  screen and (max-width: 768px) {
+    .m-home-page {
+        .demo-text {
+            top: 45%;
+            font-size: 3em;
+        }
+
+        .m-seasons-area {
+            //
+        }
+
+        .m-github-area {
+            //
         }
     }
 }

@@ -31,6 +31,10 @@
     "env": {
       "node": true
     },
+    "globals": {
+      "importScripts": true,
+      "workbox": true
+    },
     "extends": [
       "plugin:vue/essential",
       "eslint:recommended"
