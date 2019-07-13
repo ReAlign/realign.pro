@@ -1,6 +1,6 @@
 <template>
     <div class="m-home-page">
-        <h1 id="headline" class="demo-text">ReAlign.pro</h1>
+        <h1 id="headline" class="demo-text">{{hostname}}</h1>
 
         <div class="m-seasons-area">
             🍖🍹🚬🧔
@@ -26,6 +26,7 @@
         name: 'home-page',
         data() {
             return {
+                hostname: '',
                 tipAttrs: {
                     placement: 'bottom',
                     classes: ['info'],
@@ -47,15 +48,25 @@
             };
         },
         mounted() {
-            const shine = new Shinejs.Shine(document.getElementById('headline'));
+            const vm = this;
+            vm.hostname = location.hostname;
 
-            function handleMouseMove(event) {
-                shine.light.position.x = event.clientX;
-                shine.light.position.y = event.clientY;
-                shine.draw();
-            }
+            setTimeout(() => {
+                vm.initShine();
+            }, 500);
+        },
+        methods: {
+            initShine() {
+                const shine = new Shinejs.Shine(document.getElementById('headline'));
 
-            window.addEventListener('mousemove', handleMouseMove, false);
+                function handleMouseMove(event) {
+                    shine.light.position.x = event.clientX;
+                    shine.light.position.y = event.clientY;
+                    shine.draw();
+                }
+
+                window.addEventListener('mousemove', handleMouseMove, false);
+            },
         },
     }
 </script>
