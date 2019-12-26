@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <home-page />
+    <beian />
   </div>
 </template>
 
 <script>
-import HomePage from './components/home-page.vue'
+import HomePage from './components/home-page.vue';
+import Beian from './components/beian.vue';
 
 export default {
   name: 'app',
   components: {
     'home-page': HomePage,
+    beian: Beian,
   }
 }
 </script>
@@ -22,7 +25,9 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
+  margin: 0;
   background: #fff;
+  overflow: visible;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

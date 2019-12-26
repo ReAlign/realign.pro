@@ -73,12 +73,12 @@
 
 <style lang="less" scoped>
 @emoji-letter-spacing: 20px;
-@font-face {
-    src: url(https://fontfacekit.github.io/open-sans/fonts/ExtraBold/OpenSans-ExtraBold.woff2?v=1.101);
-    font-family: Open Sans;
-    font-weight: 800;
-    font-style: normal;
-}
+// @font-face {
+//     src: url(https://fontfacekit.github.io/open-sans/fonts/ExtraBold/OpenSans-ExtraBold.woff2?v=1.101);
+//     font-family: Open Sans;
+//     font-weight: 800;
+//     font-style: normal;
+// }
 .m-home-page {
     .demo-text {
         display: table;
@@ -96,7 +96,7 @@
         text-shadow: 0 1px #ccc, 1px 0 #ccc, -1px 0 #ccc, 0 -1px #ccc;
 
         font-size: 8em;
-        font-family: "Open Sans", sans-serif;
+        font-family: "Helvetica", sans-serif;
         font-weight: 800;
 
         letter-spacing: -0.02em;
