@@ -49,7 +49,9 @@
         },
         mounted() {
             const vm = this;
-            vm.hostname = location.hostname;
+            const str = location.hostname;
+
+            vm.hostname = str.charAt(0).toUpperCase() + str.slice(1);
 
             setTimeout(() => {
                 vm.initShine();
