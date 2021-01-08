@@ -5,7 +5,7 @@
         版权所有
         ICP证：
         <a
-            href="http://www.beian.miit.gov.cn"
+            href="https://beian.miit.gov.cn"
             rel="noopener"
             target="_blank"
         >浙ICP备19000351号</a>
