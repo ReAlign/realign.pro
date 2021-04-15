@@ -8,7 +8,7 @@
             href="https://beian.miit.gov.cn"
             rel="noopener"
             target="_blank"
-        >浙ICP备19000351号</a>
+        >浙ICP备19000351号-1</a>
         <div style="display:inline-block;margin:0 auto 0 3px;padding:0;">
             <a
                 target="_blank"
@@ -44,7 +44,7 @@
 <style lang="less" scoped>
 .m-beian {
     position: absolute;
-    top: 100%;
+    top: calc(100% - 30px);
     width: 100%;
     font-size: 12px;
     padding-bottom: 10px;
