@@ -1,7 +1,7 @@
 <template>
     <div class="m-beian">
         © 2019
-        <a href="//realign.pro" rel="noopener" target="_blank">🔗Realign.pro</a>
+        <a href="//realign.cn" rel="noopener" target="_blank">🔗Realign.cn</a>
         版权所有
         ICP证：
         <a
@@ -15,7 +15,7 @@
                 href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802010599"
                 style="display:inline-block;text-decoration:none;line-height:12px;"
             >
-                <img src="//blog.realign.pro/images/others/beian.png" style="width:14px;vertical-align:top;" />
+                <img src="//blog.realign.cn/images/others/beian.png" style="width:14px;vertical-align:top;" />
                 <p
                     style="display:inline-block;line-height:16px;margin: 0px 0px 0px 5px; color:#939393;"
                 >浙公网安备 33010802010600号</p>

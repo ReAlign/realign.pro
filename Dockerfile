@@ -4,6 +4,7 @@ WORKDIR /usr/src/app
 COPY package.json ./
 COPY .npmrc ./
 COPY ./dist dist/
-RUN npm install serve -g
+COPY ./docker-src/package.json ./
+RUN npm install
 EXPOSE 3000
-ENTRYPOINT [ "serve", "dist" ]
+ENTRYPOINT [ "npm", "start" ]

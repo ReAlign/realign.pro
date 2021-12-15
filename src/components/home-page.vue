@@ -36,7 +36,7 @@
                 targets: [
                     {
                         tip: '杂记：什么都有，什么都没有',
-                        url: 'https://blog.realign.pro',
+                        url: 'https://blog.realign.cn',
                         img: `https://img.shields.io/badge/${'blog'}-${'雜 記'}-success.svg?style=for-the-badge&color=${'f0769a'}&labelColor=${'34495e'}`,
                     },
                     {
