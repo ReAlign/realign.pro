@@ -16,15 +16,15 @@
   </noscript>
   <div id="app"></div>
   <!-- built files will be auto injected -->
-  <script>
+  <!-- <script>
     // Check that service workers are registered
     if ('serviceWorker' in navigator) {
       // Use the window load event to keep the page load performant
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js');
+        navigator.serviceWorker.register('<%= BASE_URL %>sw.js');
       });
     }
-  </script>
+  </script> -->
   <!-- 数据专家统计 -->
   <!-- https://web.umeng.com -->
   <!-- <script type="text/javascript">
